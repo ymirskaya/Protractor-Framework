@@ -21,7 +21,7 @@ describe('demo calculator tests', function () {
 
       //let result=element(by.cssContainingText('.ng-binding','5'));
       //expect(result.getText()).toEqual('5');
-      browser.sleep(3000);
+      browser.sleep(5000);
    }    
 
   
@@ -45,7 +45,7 @@ describe('demo calculator tests', function () {
   
       homepage.clickGo();  
       
-      homepage.verifyResult('7');
+      homepage.verifyResult('5');
     
       //let result=element(by.cssContainingText('.ng-binding','5'));
       //expect(result.getText()).toEqual('5');
