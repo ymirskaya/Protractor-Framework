@@ -10,18 +10,18 @@ describe('demo calculator tests', function () {
 
 
       //element(by.model('second')).sendKeys('3');
-      homepage.enterSecondNumber('5');
+      homepage.enterSecondNumber('6');
 
       //element(by.css('[ng-click="doAddition()"]')).click();   
 
       homepage.clickGo();
 
-      homepage.verifyResult('9');
+      homepage.verifyResult('10');
 
 
       //let result=element(by.cssContainingText('.ng-binding','5'));
       //expect(result.getText()).toEqual('5');
-      browser.sleep(2000);
+      browser.sleep(3000);
    }    
 
   
