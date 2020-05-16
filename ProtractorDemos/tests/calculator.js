@@ -35,7 +35,7 @@ describe('demo calculator tests', function () {
       homepage.get('https://juliemr.github.io/protractor-demo/');
   
       //element(by.model('first')).sendKeys('2');
-      homepage.enterFirstNumber('3');
+      homepage.enterFirstNumber('2');
   
   
       //element(by.model('second')).sendKeys('3');
@@ -45,7 +45,7 @@ describe('demo calculator tests', function () {
   
       homepage.clickGo();  
       
-      homepage.verifyResult('5');
+      homepage.verifyResult('4');
     
       //let result=element(by.cssContainingText('.ng-binding','5'));
       //expect(result.getText()).toEqual('5');
