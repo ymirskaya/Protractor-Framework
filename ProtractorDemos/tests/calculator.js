@@ -75,7 +75,7 @@ describe('demo calculator tests', function () {
      
          homepage.clickGo();
      
-         homepage.verifyResult('2');
+         homepage.verifyResult('7');
        
          //let result=element(by.cssContainingText('.ng-binding','5'));
          //expect(result.getText()).toEqual('5');
